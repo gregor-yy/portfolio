@@ -1,0 +1,43 @@
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.title {
+    color: white;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+
+}
+
+.body_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+.body_item:last-child {
+    margin-top: 228px;
+}
+
+@media (max-width: 768px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .body_item:last-child {
+        margin-top: 0;
+    }
+}

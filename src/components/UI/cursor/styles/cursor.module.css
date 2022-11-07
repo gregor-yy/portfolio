@@ -1,0 +1,17 @@
+.cursor {
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .cursor {
+        display: none;
+    }
+}

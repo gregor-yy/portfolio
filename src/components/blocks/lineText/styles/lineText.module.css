@@ -1,0 +1,26 @@
+.body {
+    width: 100%;
+    height: 464px;
+    background-color: black;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 298px;
+    color: white;
+    transition: 100ms;
+}
+
+@media (max-width: 1024px) {
+    .body {
+        height: 147px;
+    }
+    .text {
+        font-size: 98px;
+    }
+}

@@ -1,0 +1,68 @@
+.body {
+    animation: 0.5s hidden forwards;
+}
+
+.show {
+    animation: 0.5s show forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(10%);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0%);
+    }
+}
+
+@keyframes hidden {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.image {
+    width: 100%;
+    height: 512px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    color: white;
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+.description {
+    margin-top: 12px;
+    color: white;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+}

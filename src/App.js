@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import ScrollContainer from "./components/UI/scrollContainer/ScrollContainer";
+
+import Hello from "./components/blocks/hello/Hello";
+import Text from "./components/blocks/about/text/Text";
+import BlockProjects from "./components/blocks/projects/blockProjects/BlockProjects";
+import LineText from "./components/blocks/lineText/LineText";
+import Grid from "./components/blocks/grid/Grid";
+import BlockStack from "./components/blocks/stack/blockStack/BlockStack";
+import Contact from "./components/blocks/contact/Contact";
+
+import Cursor from "./components/UI/cursor/Cursor";
+
+import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [cursorVariant, setCursorVariant] = useState("default");
+    const [scroll, setScroll] = useState();
+    return (
+        <>
+            <ScrollContainer setScroll={setScroll}>
+                <Hello setCursorVariant={setCursorVariant} />
+                <Text scroll={scroll} />
+                <BlockProjects scroll={scroll} setCursorVariant={setCursorVariant} />
+                <LineText scroll={scroll} />
+                <Grid scroll={scroll} />
+                <BlockStack />
+                <Contact setCursorVariant={setCursorVariant} />
+                <div style={{ height: "100vh" }}></div>
+            </ScrollContainer>
+            <Cursor cursorVariant={cursorVariant} />
+        </>
+    );
 }
 
 export default App;
