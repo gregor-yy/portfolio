@@ -4,10 +4,13 @@ import studVesna from "../../../../assets/images/projects/studvesna.webp";
 import webJox from "../../../../assets/images/projects/webjox.webp";
 import dentalGood from "../../../../assets/images/projects/dentalgood.webp";
 import mari from "../../../../assets/images/projects/mari.webp";
+import threePortal from "../../../../assets/images/projects/3d-portal.webp";
 
 import sellerLab from "../../../../assets/images/projects/sellerlab.webp";
 import moon from "../../../../assets/images/projects/moon.webp";
 import welson from "../../../../assets/images/projects/welson.webp";
+import threeCar from "../../../../assets/images/projects/3d-car.webp";
+import threeRace from "../../../../assets/images/projects/3d-race.webp";
 
 import CardProject from "../cardProject.jsx/CardProject";
 
@@ -43,6 +46,14 @@ const leftData = [
         description: 'Сайт настольной игры "M.A.R.I. и безумная фабрика".',
         link: "https://m.a.r.i.lifestyleltd.ru/",
     },
+    {
+        id: 4,
+        name: "3D Portal Scene",
+        image: threePortal,
+        description: "Сайт с динамической 3D сценой острова с порталом.",
+        warn: "Сайт содержит 3D графику, требуются значительные ресурсы устройства и высокая скорость интернета!",
+        link: "https://3d-portal.gregor-z.ru/",
+    },
 ];
 
 const rightData = [
@@ -66,7 +77,23 @@ const rightData = [
         name: "Велсон",
         image: welson,
         description: "Сайт препарата для улучшения качества сна.",
-        link: "http://a0714564.xsph.ru/",
+        link: "https://velson24.ru/",
+    },
+    {
+        id: 4,
+        name: "3D Car Scene",
+        image: threeCar,
+        description: "Сайт с динамической 3D сценой автомобиля.",
+        warn: "Сайт содержит 3D графику, требуются значительные ресурсы устройства и высокая скорость интернета!",
+        link: "https://3d-car.gregor-z.ru/",
+    },
+    {
+        id: 4,
+        name: "3D Race Game",
+        image: threeRace,
+        description: "Сайт с гоночной 3D мини-игрой.",
+        warn: "Сайт содержит 3D графику, требуются значительные ресурсы устройства и высокая скорость интернета!",
+        link: "https://3d-race.gregor-z.ru/",
     },
 ];
 

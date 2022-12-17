@@ -23,8 +23,8 @@ function App() {
                 <BlockProjects scroll={scroll} setCursorVariant={setCursorVariant} />
                 <LineText scroll={scroll} />
                 <Grid scroll={scroll} />
-                <BlockStack />
                 <Contact setCursorVariant={setCursorVariant} />
+                <BlockStack />
                 <div style={{ height: "100vh" }}></div>
             </ScrollContainer>
             <Cursor cursorVariant={cursorVariant} />

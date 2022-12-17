@@ -34,6 +34,7 @@ const CardProject = ({ scroll, card, setCursorVariant }) => {
                 </div>
                 <p className={styles.name}>{card.name}</p>
                 <p className={styles.description}>{card.description}</p>
+                {card?.warn && <p className={styles.warn}>{card?.warn}</p>}
             </div>
         </div>
     );
