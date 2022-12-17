@@ -9,6 +9,7 @@ import typescript from "../../../../assets/images/stack/typescript.png";
 import react from "../../../../assets/images/stack/react.png";
 import next from "../../../../assets/images/stack/next.png";
 import redux from "../../../../assets/images/stack/redux.png";
+import threejs from "../../../../assets/images/stack/threejs.png";
 import webpack from "../../../../assets/images/stack/webpack.png";
 import jest from "../../../../assets/images/stack/jest.png";
 import reactTestLib from "../../../../assets/images/stack/react-test-lib.png";
@@ -80,55 +81,61 @@ const stack_array = [
     },
     {
         id: 8,
+        src: threejs,
+        name: "ThreeJS",
+        description: "Знаком с основами работы над 3D графикой в веб-приложениях.",
+    },
+    {
+        id: 9,
         src: webpack,
         name: "WebPack",
         description: `Хорошо работаю со сборщиком. Умею настраивать конфиг, html, JavaScript, TypeScript, React Router Dom, css, css modules, sass modules и т.д.`,
     },
     {
-        id: 9,
+        id: 10,
         src: jest,
         name: "Jest",
         description: "Пишу тесты следующих видов: Unit тесты, интеграционные тесты, скриншотные тесты, e2e тесты.",
     },
     {
-        id: 10,
+        id: 11,
         src: reactTestLib,
         name: "React Testing Library",
         description: "Пишу тесты следующих видов: Unit тесты, интеграционные тесты, скриншотные тесты, e2e тесты.",
     },
     {
-        id: 11,
+        id: 12,
         src: storybook,
         name: "Storybook",
         description: "Неплохо использую для документирования дизайн систем и UI китов.",
     },
     {
-        id: 12,
+        id: 13,
         src: loki,
         name: "Loki",
         description: "Неплохо использую для скриншотного тестирования.",
     },
     {
-        id: 13,
+        id: 14,
         src: npm,
         name: "NPM",
         description:
             "Уверенно работаю с менеджером пакетов. Подключение и отключение зависимостей, публикация npm пакетов, работа с версиями.",
     },
     {
-        id: 14,
+        id: 15,
         src: yarn,
         name: "Yarn",
         description: "Использую как и npm, просто побыстрее работает.",
     },
     {
-        id: 15,
+        id: 16,
         src: git,
         name: "Git",
         description: "Всех тонкостей не знаю. Умею работать с ветками, версиями, milestone, issue, релизами.",
     },
     {
-        id: 16,
+        id: 17,
         src: bash,
         name: "Bash",
         description: "90% моего опыта разработки приходится на Ubuntu, часто работаю с терминалом и с серверами через ssh.",
