@@ -21,9 +21,9 @@ function App() {
                 <Hello setCursorVariant={setCursorVariant} />
                 <Text scroll={scroll} />
                 <BlockProjects scroll={scroll} setCursorVariant={setCursorVariant} />
+                <Contact setCursorVariant={setCursorVariant} />
                 <LineText scroll={scroll} />
                 <Grid scroll={scroll} />
-                <Contact setCursorVariant={setCursorVariant} />
                 <BlockStack />
                 <div style={{ height: "100vh" }}></div>
             </ScrollContainer>

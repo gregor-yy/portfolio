@@ -3,6 +3,8 @@
     height: 1052px;
     position: relative;
     overflow: hidden;
+    max-width: 2560px;
+    margin: 0 auto;
 }
 
 .body {
