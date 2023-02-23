@@ -29,17 +29,11 @@ const Cursor = ({ cursorVariant }) => {
             y: mousePosition.y - 75,
             height: 150,
             width: 150,
-            backgroundColor: "white",
+            backgroundColor: "rgb(255, 255, 255)",
             mixBlendMode: "difference",
         },
     };
-    return (
-        <motion.div
-            className={styles.cursor}
-            variants={variants}
-            animate={cursorVariant}
-        ></motion.div>
-    );
+    return <motion.div className={styles.cursor} variants={variants} animate={cursorVariant}></motion.div>;
 };
 
 export default Cursor;

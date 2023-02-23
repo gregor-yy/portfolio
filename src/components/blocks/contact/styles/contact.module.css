@@ -141,6 +141,11 @@
 
 
 @media (max-width: 1024px) {
+
+    .container {
+        margin: 48px auto 40% auto;
+    }
+
     .card {
         position: relative;
         width: 60vw;
