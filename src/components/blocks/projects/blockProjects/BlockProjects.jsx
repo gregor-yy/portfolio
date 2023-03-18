@@ -11,7 +11,7 @@ const BlockProjects = ({ scroll, setCursorVariant }) => {
             <div className={styles.container}>
                 <h2 className={styles.title}>
                     <IoCheckmarkDone />
-                    Лучшие проекты
+                    Проекты
                 </h2>
                 <div className={styles.body}>
                     <div className={styles.body_item}>

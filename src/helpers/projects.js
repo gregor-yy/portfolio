@@ -4,9 +4,8 @@ import dentalGood from "../assets/images/projects/dentalgood.webp";
 import mari from "../assets/images/projects/mari.webp";
 import threePortal from "../assets/images/projects/3d-portal.webp";
 
-import sellerLab from "../assets/images/projects/sellerlab.webp";
+import itc from "../assets/images/projects/itcru.webp";
 import moon from "../assets/images/projects/moon.webp";
-import welson from "../assets/images/projects/welson.webp";
 import threeCar from "../assets/images/projects/3d-car.webp";
 import threeRace from "../assets/images/projects/3d-race.webp";
 
@@ -53,10 +52,10 @@ export const leftLine = [
 export const rightLine = [
     {
         id: 1,
-        name: "Seller Lab",
-        image: sellerLab,
-        description: "Cервис аналитики и управления продажами на Ozon.",
-        link: "https://sellerlab.io/",
+        name: "Инновационные технологии связи",
+        image: itc,
+        description: "ООО «ИТС» - официальный сайт | Интернет и ТВ для дома и бизнеса",
+        link: "https://itcru.ru/",
     },
     {
         id: 2,
@@ -68,13 +67,6 @@ export const rightLine = [
     },
     {
         id: 3,
-        name: "Велсон",
-        image: welson,
-        description: "Сайт препарата для улучшения качества сна.",
-        link: "https://velson24.ru/",
-    },
-    {
-        id: 4,
         name: "3D Car Scene",
         image: threeCar,
         description: "Сайт с динамической 3D сценой автомобиля.",
@@ -82,7 +74,7 @@ export const rightLine = [
         link: "https://3d-car.gregor-z.ru/",
     },
     {
-        id: 5,
+        id: 4,
         name: "3D Race Game",
         image: threeRace,
         description: "Сайт с гоночной 3D мини-игрой.",
