@@ -7,9 +7,8 @@ import {
     reCalculateBlocks,
 } from "../../../helpers/utilities";
 
-export const ScrollContext = React.createContext();
 
-export default ({ children, setScroll }) => {
+const ScrollContainer =  ({ children, setScroll }) => {
     const spacer = useRef(null);
     const container = useRef(null);
     const blocks = useRef([]);
@@ -91,3 +90,7 @@ export default ({ children, setScroll }) => {
         </ScrollContext.Provider>
     );
 };
+
+export const ScrollContext = React.createContext();
+
+export default ScrollContainer;

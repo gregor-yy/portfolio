@@ -11,7 +11,12 @@ import Contact from "./components/blocks/contact/Contact";
 import Cursor from "./components/UI/cursor/Cursor";
 
 import { useState } from "react";
-
+// TODO: Все изображения перевести в webp и привести к единому размеру
+// TODO: Настроить абсолютные import-ы
+// TODO: Добавить TypeScript
+// TODO: Поработать над файловой структурой, есть смысл передалать под FSD
+// TODO: Развернуть Strapi и вынести туда все данные
+// TODO: Поработать над варнингами
 function App() {
     const [cursorVariant, setCursorVariant] = useState("default");
     const [scroll, setScroll] = useState();

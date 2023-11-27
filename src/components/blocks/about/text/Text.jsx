@@ -7,7 +7,7 @@ const Text = ({ scroll }) => {
         <div className="background">
             <div className={`${styles.body} container`}>
                 <TextItem text={"JavaScript + TypeScript"} scroll={scroll} /> <br />
-                <TextItem text={"Front-End Developer"} scroll={scroll} /> <br />
+                <TextItem text={"Frontend Developer"} scroll={scroll} /> <br />
             </div>
         </div>
     );
